@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension version="3.4" type="library" method="upgrade">
+    <name>galaxiis Framework</name>
+    <libraryname>galaxiis</libraryname>
+    <version>1.0.0</version>
+
+    <author>Galaxiis</author>
+    <authorEmail>galaxiiscom@gmail.com</authorEmail>
+    <authorUrl>www.galaxiis.com</authorUrl>
+    <creationDate>2016-12-31</creationDate>
+    <copyright>Copyright (C) 2013-2016 galaxiis.com All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL 3.0</license>
+    <description>Galaxiis framework</description>
+
+    <files folder="galaxiis">
+        <folder>fields</folder>
+    </files>
+
+    <media folder="assets" destination="galaxiis/assets">
+        <folder>css</folder>
+        <folder>fonts</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+    </media>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.lib_galaxiis.sys.ini</language>
+        <language tag="en-GB">en-GB/en-GB.lib_galaxiis.ini</language>
+    </languages>
+</extension>
